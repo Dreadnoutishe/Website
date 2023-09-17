@@ -2,16 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: auto;
     padding: 0;
-    /* Specify the first background image on the left */
     background-image: url('https://s3.getstickerpack.com/storage/uploads/sticker-pack/zhongli/sticker_3.png?52dcd9eb72dcce20ed745c4b21ef39d6&d=200x200'), url('https://cdn140.picsart.com/344131053007211.png');
-    
-    /* Position the first image on the left and the second image on the right */
     background-position: left center, right center;
     background-size: 450px;
-    /* Repeat the first image vertically and the second image vertically */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* Set background color as a fallback in case images are not available */
     background-color: goldenrod;
 }
 
